@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: georgia;
+}
+
+.banner > h2 {
+  letter-spacing: 10px;
+  font-size: 200%;
+}
+
+.form > p {
+  margin: 0;
+  display: inline;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: rgb(197, 85, 160);
+  text-align: center;
+  height: 180px;
+  width: 50%;
+  margin: 0;
+  display: inline-block;
+}
+
+.banner,
+.footer {
+  background-color: rgb(246, 226, 222);
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+}
+
+.left,
+.right {
+  background-color: rgb(197, 85, 160);
+  color: white;
+  width: 50%;
+  height: 400px;
+  margin: 0;
+  float: left;
+}
+
+.home,
+.zamowienie {
+  padding-right: 70px;
+  padding-bottom: 120px;
+  font-size: 150%;
+  text-decoration: none;
+}
+
+.zamowienie {
+  position: relative;
+}
+
+.zamowienie > img {
+  position: absolute;
+  left: 0;
+}
+
+table,
+td,
+tr,
+th {
+  border: 2px solid blue;
+  margin: 20px;
+  padding: 10px;
+}
